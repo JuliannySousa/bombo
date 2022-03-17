@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Ropa+Sans&family=Texturina&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    position: relative;
+    background-image: linear-gradient(154deg, #5F0530, black 15%);
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin: 10px 25px;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    }
+
+header h1{
+    font-size: 50px;
+    font-family: "nunito";
+
+}
+
+header div{
+    justify-content: space-around;
+    padding: 10px;
+    margin-right: 65px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    padding: 25px;
+    position: absolute;
+    width: 18%;
+}
+
+.menu-botao{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 8px;
+}
+.atividade-na-rede{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "nunito", sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: justify;
+    width: 37%;
+    margin-left: 18%;
+    position: absolute;
+}
+
+.ouvindo-agora{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: end;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 0%;
+    position: absolute;
+}
+.simbolos{
+    flex-direction: row;
+}
+#heart1{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#comment1{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#share{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#book{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.midias{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-left: 4%;
+    width: 30%;
+    height: 30%;
+    align-items: flex-start;
+    object-fit: contain;
+    }
+
+#facebook{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 2px;
+}
+
+#twitter{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 2px;
+}
+
+#instagram{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 2px;
+}
+
+#whatsapp{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 2px;
+}
+
+#slack{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 2px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    max-width: 100px;
+    max-height: 100px;
+    background-color: transparent;
+
+}
+
+.play{
+    margin-left: 10%;
+    padding: 2%;
+    cursor: pointer;
+    
+}
