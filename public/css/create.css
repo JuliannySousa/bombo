@@ -181,6 +181,7 @@ article{
     background-color: transparent;
     border: 0;
     margin-right: 15px ;
+    cursor: pointer;
 }
 
 #btn-play{
@@ -188,7 +189,7 @@ article{
     border-radius: 40px;
     border: 0;
     margin-left: 13px;
-
+    cursor: pointer;
 }
 
 #btn-play img{
