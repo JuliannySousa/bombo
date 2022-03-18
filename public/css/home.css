@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@600&family=Nunito:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-attachment: fixed;
+    background-color: #B00547;
+    background-image: linear-gradient(154deg, #B00547 0%, #110519 12%, #110519 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header h1{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 64px;
+    margin-top: 76px;
+    margin-left: 120px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin: 10px 25px;
+    padding: 5px;
+    background-color: transparent;
+    width: 98%;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+header div{
+    justify-content: space-around;
+    padding: 10px;
+    margin-right: 500px;
+    height: auto;
+}
+
+.menu{
+    margin-left: 80px;
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    padding: 25px;
+    position: absolute;
+}
+
+.menu-botao {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    color:  white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    
+}
+
+.menu button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 55px;
+    padding-bottom: 27px;
+
+}
+
+.app{
+    width: 28px;
+    padding: 2px;
+
+}
+
+#install-app{
+    display: flex;
+    background-color: #0D0E10;
+    border-radius: 12px;
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    padding-left: 33px;
+}
+
+#botao-texto{
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.plays-mais-ouvidas{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: end;
+    width: 25%;
+    margin-left: 12%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+.ultimas-curtidas{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "nunito", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 0%;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.albunss{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-right: 10px;
+    
+}
+
+.destaques{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "nunito", sans-serif;
+    font-size: 24px;
+    align-items: flex-start;
+    text-align: justify;
+    width: 37%;
+    margin-left: 40%;
+    margin-top: 12%;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.albuns{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-right: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: "nunito", sans-serif;
+    font-size: 24px;
+    align-items: flex-start;
+    text-align: justify;
+    width: 47%;
+    margin-left: 14%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.linha{
+    background-color: #B00547;
+    width: 350px;
+    height: 2px;
+    margin-top: 2px;
+    border: 2px solid #B00547;
+    border-radius: 25px;
+}
+
+footer{
+    display: flex;
+    height: 1px;
+    padding: 770px;
+    padding-left: 68px;
+}
+
+footer div .cantor{
+    font-family: "DM sans", sans-serif;
+}
+
+footer div .musica{
+    font-family: "DM sans", sans-serif;
+}
+
+footer div{
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.curtida{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    bottom: 29px;
+    right: 0px;
+
+
+}
+
+.reproducao-video button{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+}
+
+.progress{
+    color: white;
+    font-family: "DM sans", sans-serif;
+    padding: 20px;
+}
+
+.progress p{
+  padding: 12px;
+}
+
+footer button{
+    cursor: pointer;
+}
