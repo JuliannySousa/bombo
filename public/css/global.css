@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+*{
+    color: #f0f0f0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+body{      
+   background-image: linear-gradient(to bottom right , #5f0530 , black 15% );   
+   background-repeat:no-repeat ;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100vw;
+   height: 100vh;
+  
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    position: relative;
+    color: white;
+    width: 100wh;
+    height: auto;
+}
+
+#titulo-principal{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 60px;
+    margin-left: 2%;
+    
+}
+
+.navegation{
+    justify-content: space-around;
+    padding: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+}
+
+.menu-inicial{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background: transparent;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 55px;
+    padding-bottom: 27px;
+
+}
+
+.app{
+    width: 28px;
+    padding: 2px;
+
+}
+
+#install-app{
+    display: flex;
+    background-color: #0D0E10;
+    border-radius: 12px;
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    padding-left: 33px;
+}
+
+#botao-texto{
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: flex-end;
+    align-content: flex-end;
+    padding: 90px;
+    padding-left: 68px;
+    height: 20%;
+}
+
+footer div .cantor{
+    font-family: "DM sans", sans-serif;
+}
+
+footer div .musica{
+    font-family: "DM sans", sans-serif;
+}
+
+footer div{
+    padding: 40px;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.curtida{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    bottom: 29px;
+    right: 0px;
+
+
+}
+
+.reproducao-video button{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+.progress{
+    color: white;
+    font-family: "DM sans", sans-serif;
+    padding: 10px;
+}
+
+.progress p{
+  padding: 15px;
+}
+
+footer button{
+    cursor: pointer;
+}
